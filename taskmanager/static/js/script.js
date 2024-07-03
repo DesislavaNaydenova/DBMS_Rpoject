@@ -1,15 +1,15 @@
 document.addEventListener('DOMContentLoaded', function() {
-    // sidenav initialisation
+    // sidenav initialization
     let sidenav = document.querySelectorAll('.sidenav');
     M.Sidenav.init(sidenav);
-    // datepicker initalization
+    // datepicker initialization
     let datepicker = document.querySelectorAll('.datepicker');
     M.Datepicker.init(datepicker, {
-      format_ "dd mmmm, yyyy",
+      format: "dd mmmm, yyyy",
       i18n: {done: "Select"}
     });
 
-    // select initialisation
+    // select initialization
     let selects = document.querySelectorAll('select');
     M.FormSelect.init(selects);
   });

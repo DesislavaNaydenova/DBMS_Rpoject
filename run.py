@@ -1,10 +1,5 @@
 import os
-from taskmanager import app, db
-
-
-with app.app_context():
-    db.create_all()
-    # You can also add any other initialization code here
+from taskmanager import app
 
 
 if __name__ == "__main__":
